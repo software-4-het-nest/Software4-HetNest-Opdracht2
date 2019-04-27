@@ -1,11 +1,11 @@
-# Software4-HetNest-Opdracht2
+#Software4-HetNest-Opdracht2
 #
-# Zet Apache en mySQL aan
-# Database "hetnest" aanmaken in phpmyadmin
+#Zet Apache en mySQL aan
+#Database "hetnest" aanmaken in phpmyadmin
 #
-# Download Tomcat 9 : https://tomcat.apache.org/download-90.cgi: 9.0.19 - > binary distributions -> 64-bit windows
+#Download Tomcat 9 : https://tomcat.apache.org/download-90.cgi: 9.0.19 - > binary distributions -> 64-bit windows
 #
-# Maak een folder Applicaties aan in C drive -> Tomcat hier uitpakken (C:\Applicaties) 
+#Maak een folder Applicaties aan in C drive -> Tomcat hier uitpakken (C:\Applicaties) 
 #
 #
 #
