@@ -1,5 +1,5 @@
-#Software4-HetNest-Opdracht2
-#
+Software4-HetNest-Opdracht2
+
 #Zet Apache en mySQL aan
 #Database "hetnest" aanmaken in phpmyadmin
 #
