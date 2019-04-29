@@ -132,11 +132,11 @@
             <artifactId>jackson-datatype-jsr310</artifactId>
         </dependency>
         <!-- Utilities -->
-        <!--<dependency>
+        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>21.0</version>
-        </dependency>-->
+        </dependency>
         <!--  JUnit testen in het algemeen -->
         <dependency>
             <groupId>junit</groupId>

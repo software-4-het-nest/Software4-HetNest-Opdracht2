@@ -17,16 +17,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class StepDefinitions {
-
     WebDriver driver;
 
     @Given("^I am on the page where I can introduce a new aanbieding$")
     public void i_am_on_the_page_where_I_can_introduce_a_new_aanbieding() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-
-        driver = new ChromeDriver();
-        driver.navigate().to("http://localhost:8080/nieuwePersoon.html");
+        driver = new FirefoxDriver();
+        driver.navigate().to("http://localhost:8080/hetnest_war/nieuweAanbieding.html");
     }
 
     @When("^I enter \"([^\"]*)\" in the naam field$")
