@@ -232,7 +232,6 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>2.7</version>
                 <configuration>
-                    <projectNameTemplate>SomeProject</projectNameTemplate>
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>

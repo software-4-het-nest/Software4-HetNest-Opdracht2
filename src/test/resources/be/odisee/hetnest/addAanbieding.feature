@@ -1,10 +1,10 @@
-Feature Add Aanbieding
+Feature: Add Aanbieding
 
   It should be possible to add a aanbieding to the list
   just after adding the aanbieding, the details of the aanbieing should be known
   After the list is shown again, the aanbieding name should be visible
 
-  Scenario: Add one aanbieding
+    Scenario: Add one aanbieding
     Given I am on the page where I can introduce a new aanbieding
     When I enter "Redouane" in the naam field
     And I enter "50" in the hoeveelheid field
