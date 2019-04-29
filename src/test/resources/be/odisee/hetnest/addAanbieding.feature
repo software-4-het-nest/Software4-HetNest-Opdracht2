@@ -12,11 +12,11 @@ Feature: Add Aanbieding
     And I enter "Appelen" in the type field
     And I press on the Save button
     Then I should see the following on the screen
-    | Id: id         |
-    | naam: Redouane |
-    | hoeveelheid: 50|
-    | prijs: 80      |
-    | type: Appelen  |
+    | label          | data         |
+    | Naam:          | Redouane     |
+    | Hoeveelheid:   | 50           |
+    | Prijs:         | 80           |
+    | Type:          | Appelen      |
     When I click the the Lijst van alle aanbiedingen link
     Then I should see a list containing "Redouane"
     And I close the browser

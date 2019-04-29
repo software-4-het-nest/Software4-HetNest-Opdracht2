@@ -37,7 +37,7 @@ public class Aanbieding {
         return this.id;
     }
 
-    public int getHoeveelhijd()
+    public int getHoeveelheid()
     {
         return this.hoeveelhijd;
     }
@@ -57,7 +57,7 @@ public class Aanbieding {
         return this.naam;
     }
 
-    public void setHoeveelhijd(int _hoeveelheid)
+    public void setHoeveelheid(int _hoeveelheid)
     {
         this.hoeveelhijd = _hoeveelheid;
     }
